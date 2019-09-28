@@ -1,0 +1,127 @@
+{
+  "basics": {
+    "name": "Eric Sakmar",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "eric.sakmar@gmail.com",
+    "phone": "(814) 934-0702",
+    "url": "https://ericsakmar.com",
+    "summary": "Software engineer with a long career across the full stack. Excels at adapting to new technologies and techniques. Strives to create software that is tidy, maintainable, and efficient. SOLID",
+    "location": {
+      "city": "Pittsburgh",
+      "countryCode": "US",
+      "region": "Pennsylvania"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "ericsakmar",
+        "url": "https://github.com/ericsakmar"
+      },
+      {
+        "network": "CodePen",
+        "username": "ericsakmar",
+        "url": "https://codepen.io/ericsakmar/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "eric-sakmar",
+        "url": "https://www.linkedin.com/in/eric-sakmar/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Truefit",
+      "location": "Pittsburgh, PA",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "url": "https://truefit.io",
+      "startDate": "2019-01-01",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": ["that tobii thing"],
+      "keywords": [
+        "C#",
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "React",
+        "Redux",
+        "RxJs",
+        "Styled Components",
+        "TypeScript",
+        "Electron"
+      ]
+    },
+
+    {
+      "name": "Concurrent Technologies Corporation",
+      "location": "Pittsburgh, PA",
+      "description": "",
+      "position": "Senior Software Engineer",
+      "url": "https://truefit.io",
+      "startDate": "2019-01-01",
+      "endDate": "Present",
+      "summary": " Worked with junior devs through mentoring and code reviews.",
+      "highlights": [
+        "Full Stack Development on an application for tracking fleet requirements and readiness.",
+        "Front End Development in updating a legacy application to modern technologies and techniques.",
+        "Full Stack Development on an application for browsing and analyzing geospatial data.",
+        "Front End Development on a prototype application to access containerized software instances.",
+        "Mobile Development on a prototype app to request and apply derived credentials."
+      ],
+      "keywords": [
+        "Android",
+        "Angular",
+        "Butterknife",
+        "CSS",
+        "D3",
+        "Gulp",
+        "HTML",
+        "Jasmine",
+        "JavaScript",
+        "Jest",
+        "Karma",
+        "LESS",
+        "Mapbox",
+        "Mocha",
+        "Mongo",
+        "Node",
+        "Protractor",
+        "Pug",
+        "REST",
+        "React",
+        "Redux",
+        "Responsive Design",
+        "Ruby on Rails",
+        "RxAndroid",
+        "SASS",
+        "SVG",
+        "Stylus",
+        "Support Libraries",
+        "TypeScript",
+        "Vue",
+        "Webpack",
+        "Yeoman"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Pittsburgh - Johnstown",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2002-08-01",
+      "endDate": "2006-05-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ]
+}
