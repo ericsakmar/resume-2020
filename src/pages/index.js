@@ -36,6 +36,7 @@ export const query = graphql`
             url
             profiles {
               url
+              network
             }
           }
           work {

@@ -1,4 +1,21 @@
 body {
-  background-color: rgb(242, 242, 242);
+  background-color: ghostwhite;
   color: rgb(8, 8, 8);
+}
+
+.contact {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.contact-icon {
+  margin-right: 0.5em;
 }
