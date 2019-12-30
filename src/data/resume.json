@@ -30,83 +30,66 @@
       }
     ]
   },
+
   "work": [
     {
       "name": "Truefit",
       "location": "Pittsburgh, PA",
-      "description": "",
-      "position": "Senior Software Engineer",
+      "description": "We’re a team of strategists, product owners, designers, architects, engineers, and testers collaborating to create new software products that deliver both business and user value.",
+      "positions": [
+        {
+          "title": "Senior Software Engineer",
+          "startDate": "2019-01-01",
+          "endDate": "Present"
+        }
+      ],
       "url": "https://truefit.io",
-      "startDate": "2019-01-01",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": ["that tobii thing"],
-      "keywords": [
-        "C#",
-        "CSS",
-        "HTML",
-        "JavaScript",
-        "React",
-        "Redux",
-        "RxJs",
-        "Styled Components",
-        "TypeScript",
-        "Electron"
+      "summary": "Hired as a senior software and quickly became a trusted and productive team member through creating quality code, contributing to architecture decisions, and CODE REVIEWS.",
+      "highlights": [
+        "Full stack development for a desktop application for creating and viewing educational content. We took a very OLD application written with proprietary technologies, and updated it to open source standards-based technology through Electron, React, and .NET Core."
       ]
     },
 
     {
       "name": "Concurrent Technologies Corporation",
       "location": "Pittsburgh, PA",
-      "description": "",
-      "position": "Senior Software Engineer",
-      "url": "https://truefit.io",
-      "startDate": "2019-01-01",
-      "endDate": "Present",
-      "summary": " Worked with junior devs through mentoring and code reviews.",
-      "highlights": [
-        "Full Stack Development on an application for tracking fleet requirements and readiness.",
-        "Front End Development in updating a legacy application to modern technologies and techniques.",
-        "Full Stack Development on an application for browsing and analyzing geospatial data.",
-        "Front End Development on a prototype application to access containerized software instances.",
-        "Mobile Development on a prototype app to request and apply derived credentials."
+      "description": "We support our clients’ core mission objectives with customized, full lifecycle solutions.",
+      "positions": [
+        {
+          "title": "Senior Software Engineer",
+          "startDate": "2016-06-01",
+          "endDate": "2018-01-01"
+        },
+        {
+          "title": "Software Engineer",
+          "startDate": "2010-05-01",
+          "endDate": "2016-06-01"
+        },
+        {
+          "title": "Associate Software Engineer",
+          "startDate": "2008-05-01",
+          "endDate": "2010-05-01"
+        },
+        {
+          "title": "Assistant Software Engineer",
+          "startDate": "2006-05-01",
+          "endDate": "2008-05-01"
+        },
+        {
+          "title": "Technical Intern",
+          "startDate": "2004-02-01",
+          "endDate": "2006-05-01"
+        }
       ],
-      "keywords": [
-        "Android",
-        "Angular",
-        "Butterknife",
-        "CSS",
-        "D3",
-        "Gulp",
-        "HTML",
-        "Jasmine",
-        "JavaScript",
-        "Jest",
-        "Karma",
-        "LESS",
-        "Mapbox",
-        "Mocha",
-        "Mongo",
-        "Node",
-        "Protractor",
-        "Pug",
-        "REST",
-        "React",
-        "Redux",
-        "Responsive Design",
-        "Ruby on Rails",
-        "RxAndroid",
-        "SASS",
-        "SVG",
-        "Stylus",
-        "Support Libraries",
-        "TypeScript",
-        "Vue",
-        "Webpack",
-        "Yeoman"
+      "url": "https://www.ctc.com/",
+      "summary": "Hired for a full-time position after a 2 year internship. Gathered a lot of experience AND RESPONSIBILITIES? through working on a broad range of projects, in several different cities.",
+      "highlights": [
+        "Full stack development in updating a legacy application to modern technologies and techniques. Took it from a MONOLITH OR SOMETHING and moved it to a component-based, services-oriented architecture. React, CSS, OTHER STUFF.",
+        "Mobile development, native and web, on a wide range of apps. These often had tight schedules and required a keen knowledge of the nuances and idioms of the various platforms and devices."
       ]
     }
   ],
+
   "education": [
     {
       "institution": "University of Pittsburgh - Johnstown",
@@ -116,12 +99,13 @@
       "endDate": "2006-05-01"
     }
   ],
+
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "title": "Mobile Web Specialist",
+      "date": "2018-03-28",
+      "awarder": "Google",
+      "summary": "The Mobile Web Developer Certification is a performance-based exam that challenges mobile web developers to write code in response to real-world tasks."
     }
   ]
 }
