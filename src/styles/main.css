@@ -19,3 +19,15 @@ body {
 .contact-icon {
   margin-right: 0.5em;
 }
+
+.positions {
+  width: 66.666%;
+}
+
+.positions td {
+  padding: 0;
+}
+
+.positions-when {
+  text-align: right;
+}

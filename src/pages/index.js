@@ -11,13 +11,14 @@ import Education from "../components/education"
 const IndexPage = ({ data }) => {
   const resume = data.allDataJson.edges[0].node
   const { basics, work, education } = resume
-  const { name, email, phone, url, profiles } = basics
+  const { name, email, phone, url, profiles, summary } = basics
 
   return (
     <Layout>
       <SEO title="Home" />
       <Header name={name} />
       <Contact email={email} phone={phone} url={url} profiles={profiles} />
+      <p>{summary}</p>
       <Experience experience={work} />
       <Education education={education} />
     </Layout>
@@ -38,6 +39,7 @@ export const query = graphql`
               url
               network
             }
+            summary
           }
           work {
             highlights

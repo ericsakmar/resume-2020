@@ -7,7 +7,7 @@ export default ({ experience }) => {
 
   return (
     <>
-      <h2>experience</h2>
+      <h2>Professional Experience</h2>
       {employers}
     </>
   )
