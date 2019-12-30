@@ -93,11 +93,13 @@
 
   "education": [
     {
-      "institution": "University of Pittsburgh - Johnstown",
+      "institution": "University of Pittsburgh",
+      "location": "Johnstown, PA",
       "area": "Computer Science",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor of Science",
       "startDate": "2002-08-01",
-      "endDate": "2006-05-01"
+      "endDate": "2006-05-01",
+      "summary": "Presidential Scholar, Magna Cum Laude"
     }
   ],
 
