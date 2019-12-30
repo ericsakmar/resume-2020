@@ -1,7 +1,7 @@
 import React from "react"
 
 export default ({ email, phone, url, profiles }) => {
-  const links = profiles.map(p => <li>{p.url}</li>)
+  const links = profiles.map(p => <li key={p.url}>{p.url}</li>)
 
   return (
     <ul>

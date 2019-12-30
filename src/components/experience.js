@@ -3,7 +3,7 @@ import React from "react"
 import Place from "./place"
 
 export default ({ experience }) => {
-  const employers = experience.map(e => <Place {...e} />)
+  const employers = experience.map(e => <Place key={e.name} {...e} />)
 
   return (
     <>

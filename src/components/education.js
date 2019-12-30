@@ -17,7 +17,9 @@ const toPlace = education => ({
 })
 
 export default ({ education }) => {
-  const places = education.map(e => <Place {...toPlace(e)} />)
+  const places = education.map(e => (
+    <Place key={e.institution} {...toPlace(e)} />
+  ))
 
   return (
     <>

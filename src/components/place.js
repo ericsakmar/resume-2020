@@ -15,7 +15,7 @@ const Place = ({ name, location, positions, summary, highlights }) => {
 
 const Positions = ({ positions }) => {
   const rows = positions.map(p => (
-    <tr>
+    <tr key={p.title}>
       <td>{p.title}</td>
       <td>
         {p.startDate} to {p.endDate}
@@ -23,11 +23,15 @@ const Positions = ({ positions }) => {
     </tr>
   ))
 
-  return <table>{rows}</table>
+  return (
+    <table>
+      <tbody>{rows}</tbody>
+    </table>
+  )
 }
 
 const Highlights = ({ highlights }) => {
-  const rows = highlights.map(h => <li>{h}</li>)
+  const rows = highlights.map((h, i) => <li key={i}>{h}</li>)
 
   return <ul>{rows}</ul>
 }
