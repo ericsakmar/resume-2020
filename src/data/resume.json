@@ -18,6 +18,19 @@
         "username": "ericsakmar",
         "url": "https://github.com/ericsakmar"
       }
+    ],
+    "skills": [
+      "React",
+      "Redux",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "Vim",
+      "RxJS",
+      "C#",
+      "Progressive Web Applications",
+      "Node.js"
     ]
   },
 

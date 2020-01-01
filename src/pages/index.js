@@ -8,18 +8,19 @@ import Contact from "../components/contact"
 import Experience from "../components/experience"
 import Education from "../components/education"
 import Awards from "../components/awards"
+import Summary from "../components/summary"
 
 const IndexPage = ({ data }) => {
   const resume = data.allDataJson.edges[0].node
   const { basics, work, education, awards } = resume
-  const { name, email, phone, url, profiles, summary } = basics
+  const { name, email, phone, url, profiles, summary, skills } = basics
 
   return (
     <Layout>
       <SEO title="Home" />
       <Header name={name} />
       <Contact email={email} phone={phone} url={url} profiles={profiles} />
-      <p>{summary}</p>
+      <Summary summary={summary} skills={skills} />
       <Experience experience={work} />
       <Awards awards={awards} />
       <Education education={education} />
@@ -42,6 +43,7 @@ export const query = graphql`
               network
             }
             summary
+            skills
           }
           work {
             highlights

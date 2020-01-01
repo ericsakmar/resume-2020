@@ -91,3 +91,12 @@ h4 {
 .positions-when {
   text-align: right;
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  margin-right: 2em;
+}
