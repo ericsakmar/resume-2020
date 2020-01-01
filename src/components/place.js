@@ -1,10 +1,14 @@
 import React from "react"
+import { format, isValid } from "date-fns"
+
+const formatDate = date =>
+  isValid(new Date(date)) ? format(new Date(date), "MMMM yyyy") : date
 
 const Place = ({ name, location, positions, summary, highlights }) => {
   return (
-    <>
+    <div className="place">
       <h4>
-        {name} - {location}
+        {name} <span className="muted">-</span> {location}
       </h4>
 
       <Positions positions={positions} />
@@ -12,7 +16,7 @@ const Place = ({ name, location, positions, summary, highlights }) => {
       <p>{summary}</p>
 
       <Highlights highlights={highlights} />
-    </>
+    </div>
   )
 }
 
@@ -21,7 +25,8 @@ const Positions = ({ positions }) => {
     <tr key={p.title}>
       <td>{p.title}</td>
       <td className="positions-when">
-        {p.startDate} to {p.endDate}
+        {formatDate(p.startDate)} <span className="muted">to</span>{" "}
+        {formatDate(p.endDate)}
       </td>
     </tr>
   ))

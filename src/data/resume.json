@@ -6,7 +6,7 @@
     "email": "eric.sakmar@gmail.com",
     "phone": "(814) 934-0702",
     "url": "https://ericsakmar.com",
-    "summary": "Software engineer with a long career across the full stack. Excels at adapting to new technologies and techniques. Strives to create software that is tidy, maintainable, and efficient. SOLID",
+    "summary": "Software engineer with a long career across the full stack. Excels at adapting to new technologies and techniques. Strives to create software that is readable and maintainable using a practical knowledge of software design patterns and principles.",
     "location": {
       "city": "Pittsburgh",
       "countryCode": "US",
@@ -34,9 +34,9 @@
         }
       ],
       "url": "https://truefit.io",
-      "summary": "Hired as a senior software and quickly became a trusted and productive team member through creating quality code, contributing to architecture decisions, and CODE REVIEWS.",
+      "summary": "Hired as a senior software engineer and quickly became a trusted and productive team member through creating quality code, contributing to architecture decisions, and participating in code reviews.",
       "highlights": [
-        "Full stack development for a desktop application for creating and viewing educational content. We took a very OLD application written with proprietary technologies, and updated it to open source standards-based technology through Electron, React, and .NET Core."
+        "Full stack development on an application for creating and viewing educational content. Converted an existing application from proprietary technologies to an open source, standards based stack."
       ]
     },
 
@@ -72,11 +72,11 @@
         }
       ],
       "url": "https://www.ctc.com/",
-      "summary": "Hired for a full-time position after a 2 year internship. Gathered a lot of experience AND RESPONSIBILITIES? through working on a broad range of projects, in several different cities.",
+      "summary": "Hired for a full-time position after a 2 year internship. Gathered a lot of experience and took on many new responsibilities through working on a broad range of projects in several different cities.",
       "highlights": [
-        "Full stack development in updating a legacy application to modern technologies and techniques. Took it from a MONOLITH OR SOMETHING and moved it to a component-based, services-oriented architecture. React, CSS, OTHER STUFF.",
+        "Full stack development in maintaining and updating a large legacy application. Migrated the application from a tightly coupled monolith to a component based and service oriented architecture.",
         "Mobile development, native and web, on a wide range of apps. These often had tight schedules and required a keen knowledge of the nuances and idioms of the various platforms and devices.",
-        "Back end development on services providing federated searching across disparate data sources."
+        "Back end development on services for digital learning content. This included federated search, content sharing and discovery, and managing course assets."
       ]
     }
   ],

@@ -6,11 +6,11 @@ import { Mail, Phone, Home, GitHub, Codepen, Linkedin } from "react-feather"
 const getSocialIcon = network => {
   switch (network) {
     case "GitHub":
-      return <GitHub className="contact-icon" size="1em" />
+      return <GitHub className="muted contact-icon" size="1em" />
     case "CodePen":
-      return <Codepen className="contact-icon" size="1em" />
+      return <Codepen className="muted contact-icon" size="1em" />
     case "LinkedIn":
-      return <Linkedin className="contact-icon" size="1em" />
+      return <Linkedin className="muted contact-icon" size="1em" />
     default:
       return <div />
   }
@@ -29,17 +29,17 @@ export default ({ email, phone, url, profiles }) => {
   return (
     <ul className="contact">
       <li className="contact-item">
-        <Mail className="contact-icon" size="1em" />
+        <Mail className="muted contact-icon" size="1em" />
         <a href={`mailto:${email}`}>{email}</a>
       </li>
 
       <li className="contact-item">
-        <Phone className="contact-icon" size="1em" />
+        <Phone className="muted contact-icon" size="1em" />
         <a href={`tel:${phone}`}>{phone}</a>
       </li>
 
       <li className="contact-item">
-        <Home className="contact-icon" size="1em" />
+        <Home className="muted contact-icon" size="1em" />
         <a href={url}>{formatUrl(url)}</a>
       </li>
 

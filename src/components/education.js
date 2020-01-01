@@ -22,9 +22,9 @@ export default ({ education }) => {
   ))
 
   return (
-    <>
-      <h2>education</h2>
+    <section>
+      <h2>Education</h2>
       {places}
-    </>
+    </section>
   )
 }
