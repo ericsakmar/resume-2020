@@ -1,5 +1,6 @@
 import React from "react"
 import { format, isValid } from "date-fns"
+import { Circle } from "react-feather"
 
 const formatDate = date =>
   isValid(new Date(date)) ? format(new Date(date), "MMMM yyyy") : date
@@ -25,8 +26,8 @@ const Positions = ({ positions }) => {
     <tr key={p.title}>
       <td>{p.title}</td>
       <td className="positions-when">
-        {formatDate(p.startDate)} <span className="muted">to</span>{" "}
-        {formatDate(p.endDate)}
+        <span className="no-break">{formatDate(p.startDate)}</span> to{" "}
+        <span className="no-break">{formatDate(p.endDate)}</span>
       </td>
     </tr>
   ))
@@ -39,9 +40,14 @@ const Positions = ({ positions }) => {
 }
 
 const Highlights = ({ highlights }) => {
-  const rows = highlights.map((h, i) => <li key={i}>{h}</li>)
+  const rows = highlights.map((h, i) => (
+    <li className="icon-list-item icon-list-item--long" key={i}>
+      <Circle className="icon-list-icon" />
+      {h}
+    </li>
+  ))
 
-  return <ul className="styled-list">{rows}</ul>
+  return <ul className="icon-list">{rows}</ul>
 }
 
 export default Place

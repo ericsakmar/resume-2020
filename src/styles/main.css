@@ -18,11 +18,11 @@
 
 :root {
   --gutter-big: 8em;
-  --accent-color: #3e92cc;
-  --accent-color-dim: #3e92cc;
-  --accent-color-2: #adacab;
+  --accent-color: #00cccc;
+  --accent-color-2: #cc00cc;
   --background-color: #1e1b18;
   --text-color: #e8e4e8;
+  --dim-text-color: #adacab99;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
 }
 
 main {
-  max-width: 40em;
+  max-width: 42em;
   margin: var(--gutter-big) auto;
   padding: 0 1em;
 }
@@ -42,7 +42,7 @@ section {
 
 a {
   text-decoration: underline;
-  color: var(--accent-color-2);
+  color: var(--text-color);
   text-shadow: none;
   border-bottom: none;
   background-image: none;
@@ -63,30 +63,35 @@ h2 {
   border-bottom: 0.1em solid var(--accent-color);
 }
 
-h4 {
-  color: var(--accent-color);
+.no-break {
+  white-space: nowrap;
 }
 
-/* .muted {
-  opacity: 0.9;
-} */
+.icon-list {
+  margin: 0;
+}
+
+.icon-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon-list-item--long {
+  align-items: flex-start;
+}
+
+.icon-list-icon {
+  margin-right: 0.25em;
+  color: #cc00cc;
+}
 
 .contact {
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
 .contact-item {
-  display: flex;
-  align-items: center;
   margin-right: 1em;
-}
-
-.contact-icon {
-  margin-right: 0.25em;
-  color: var(--accent-color);
-  opacity: 0.75;
 }
 
 .summary {
@@ -98,8 +103,8 @@ h4 {
 }
 
 .positions td {
-  padding: 0;
-  border-bottom: 0.1em dotted var(--accent-color-2);
+  padding: 0.1em 0;
+  border-bottom: 0.1em dotted var(--dim-text-color);
 }
 
 .positions-when {
@@ -116,13 +121,11 @@ h4 {
 }
 
 .styled-list li:before {
-  content: "\2022";
-  color: var(--accent-color);
+  content: "\276f";
+  color: #cc00cc;
   display: inline-block;
   width: 0.75em;
   margin-left: -1em;
-  font-weight: bold;
-  opacity: 0.75;
 }
 
 .skills li {
