@@ -1,13 +1,12 @@
-:root {
+/* :root {
   --gutter-big: 4em;
   --accent-color: #0085b2;
   --accent-color-dim: #0085b266;
   --background-color: inherit;
   --text-color: inherit;
-}
+} */
 
 /* https://coolors.co/37392e-32ccff-28afb0-ddcecd-fff4f4 */
-
 /* :root {
   --gutter-big: 4em;
   --accent-color: #28afb0;
@@ -16,6 +15,15 @@
   --background-color: #37392e;
   --text-color: #fff4f4;
 } */
+
+:root {
+  --gutter-big: 8em;
+  --accent-color: #3e92cc;
+  --accent-color-dim: #3e92cc;
+  --accent-color-2: #adacab;
+  --background-color: #1e1b18;
+  --text-color: #e8e4e8;
+}
 
 body {
   background-color: var(--background-color);
@@ -33,7 +41,7 @@ section {
 
 a {
   text-decoration: underline;
-  color: var(--text-color);
+  color: var(--accent-color-2);
   text-shadow: none;
   border-bottom: none;
   background-image: none;
@@ -58,12 +66,11 @@ h4 {
   color: var(--accent-color);
 }
 
-.muted {
+/* .muted {
   opacity: 0.9;
-}
+} */
 
 .contact {
-  list-style: none;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -77,6 +84,12 @@ h4 {
 
 .contact-icon {
   margin-right: 0.25em;
+  color: var(--accent-color);
+  opacity: 0.75;
+}
+
+.summary {
+  margin-top: 2em;
 }
 
 .place {
@@ -85,7 +98,7 @@ h4 {
 
 .positions td {
   padding: 0;
-  border-bottom: 0.1em dotted var(--accent-color-dim);
+  border-bottom: 0.1em dotted var(--accent-color-2);
 }
 
 .positions-when {
@@ -95,6 +108,19 @@ h4 {
 .skills {
   display: flex;
   flex-wrap: wrap;
+}
+
+.styled-list {
+  list-style: none;
+}
+
+.styled-list li:before {
+  content: "\2022";
+  color: var(--accent-color);
+  display: inline-block;
+  width: 0.75em;
+  margin-left: -1em;
+  font-weight: bold;
 }
 
 .skills li {

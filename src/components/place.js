@@ -41,7 +41,7 @@ const Positions = ({ positions }) => {
 const Highlights = ({ highlights }) => {
   const rows = highlights.map((h, i) => <li key={i}>{h}</li>)
 
-  return <ul>{rows}</ul>
+  return <ul className="styled-list">{rows}</ul>
 }
 
 export default Place
