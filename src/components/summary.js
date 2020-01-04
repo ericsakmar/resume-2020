@@ -4,7 +4,7 @@ import { Code } from "react-feather"
 export default ({ summary, skills }) => {
   const skillItems = skills.map(s => (
     <li key={s} className="icon-list-item">
-      <Code className="icon-list-icon" size="1em" />
+      <Code className="icon-list-icon" />
       {s}
     </li>
   ))

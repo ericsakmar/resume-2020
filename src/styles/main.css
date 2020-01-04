@@ -74,8 +74,9 @@ h2 {
 }
 
 .icon-list-icon {
-  margin-right: 0.5em;
+  margin-right: 0.333em;
   color: var(--accent-color-2);
+  width: 1em;
 }
 
 .contact {
