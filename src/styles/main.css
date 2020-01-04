@@ -1,27 +1,20 @@
+/* dark */
 /* :root {
-  --gutter-big: 4em;
-  --accent-color: #0085b2;
-  --accent-color-dim: #0085b266;
-  --background-color: inherit;
-  --text-color: inherit;
-} */
-
-/* https://coolors.co/37392e-32ccff-28afb0-ddcecd-fff4f4 */
-/* :root {
-  --gutter-big: 4em;
-  --accent-color: #28afb0;
-  --accent-color-dim: #28afb066;
-  --accent-color-2: #32ccff;
-  --background-color: #37392e;
-  --text-color: #fff4f4;
-} */
-
-:root {
   --gutter-big: 8em;
   --accent-color: #00cccc;
   --accent-color-2: #cc00cc;
   --background-color: #1e1b18;
   --text-color: #e8e4e8;
+  --dim-text-color: #adacab99;
+} */
+
+/* light */
+:root {
+  --gutter-big: 8em;
+  --accent-color: #0066cc;
+  --accent-color-2: #800080;
+  --background-color: #fff;
+  --text-color: #000;
   --dim-text-color: #adacab99;
 }
 
@@ -81,8 +74,8 @@ h2 {
 }
 
 .icon-list-icon {
-  margin-right: 0.25em;
-  color: #cc00cc;
+  margin-right: 0.5em;
+  color: var(--accent-color-2);
 }
 
 .contact {
@@ -94,8 +87,9 @@ h2 {
   margin-right: 1em;
 }
 
-.summary {
-  margin-top: 2em;
+.summary p {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .place {
@@ -114,18 +108,6 @@ h2 {
 .skills {
   display: flex;
   flex-wrap: wrap;
-}
-
-.styled-list {
-  list-style: none;
-}
-
-.styled-list li:before {
-  content: "\276f";
-  color: #cc00cc;
-  display: inline-block;
-  width: 0.75em;
-  margin-left: -1em;
 }
 
 .skills li {
