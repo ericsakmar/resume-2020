@@ -42,7 +42,7 @@ const Positions = ({ positions }) => {
 const Highlights = ({ highlights }) => {
   const rows = highlights.map((h, i) => (
     <li className="icon-list-item icon-list-item--long" key={i}>
-      <Circle className="icon-list-icon" />
+      <Circle className="icon-list-icon" aria-hidden="true" />
       {h}
     </li>
   ))

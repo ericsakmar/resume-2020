@@ -13,7 +13,16 @@ import Summary from "../components/summary"
 const IndexPage = ({ data }) => {
   const resume = data.allDataJson.edges[0].node
   const { basics, work, education, awards } = resume
-  const { name, email, phone, url, profiles, summary, skills } = basics
+  const {
+    name,
+    email,
+    phone,
+    url,
+    profiles,
+    summary,
+    skills,
+    location,
+  } = basics
 
   return (
     <Layout>
@@ -21,7 +30,13 @@ const IndexPage = ({ data }) => {
 
       <section className="full-screen">
         <Header name={name} />
-        <Contact email={email} phone={phone} url={url} profiles={profiles} />
+        <Contact
+          email={email}
+          phone={phone}
+          url={url}
+          profiles={profiles}
+          location={location}
+        />
         <Summary summary={summary} skills={skills} />
       </section>
 
@@ -45,6 +60,10 @@ export const query = graphql`
             profiles {
               url
               network
+            }
+            location {
+              city
+              region
             }
             summary
             skills
