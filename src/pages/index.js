@@ -18,9 +18,13 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Home" description={summary} />
-      <Header name={name} />
-      <Contact email={email} phone={phone} url={url} profiles={profiles} />
-      <Summary summary={summary} skills={skills} />
+
+      <section className="full-screen">
+        <Header name={name} />
+        <Contact email={email} phone={phone} url={url} profiles={profiles} />
+        <Summary summary={summary} skills={skills} />
+      </section>
+
       <Experience experience={work} />
       <Awards awards={awards} />
       <Education education={education} />

@@ -12,6 +12,7 @@ export default ({ summary, skills }) => {
   return (
     <div className="summary">
       <p>{summary}</p>
+      <p>Currently working with:</p>
       <ul className="icon-list skills">{skillItems}</ul>
     </div>
   )

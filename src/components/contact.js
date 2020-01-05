@@ -1,5 +1,13 @@
 import React from "react"
-import { Mail, Phone, Home, GitHub, Codepen, Linkedin } from "react-feather"
+import {
+  Mail,
+  Phone,
+  Home,
+  GitHub,
+  Codepen,
+  Linkedin,
+  MapPin,
+} from "react-feather"
 
 // TODO a11y and microformats
 
@@ -44,6 +52,11 @@ export default ({ email, phone, url, profiles }) => {
       </li>
 
       {links}
+
+      <li className="icon-list-item contact-item">
+        <MapPin className="icon-list-icon" />
+        Pittsburgh, PA
+      </li>
     </ul>
   )
 }
