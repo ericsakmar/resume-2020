@@ -114,8 +114,8 @@ h2 {
 @media print {
   /* light */
   html {
-    --accent-color-2: #800080;
-    --accent-color: #0066cc;
+    --accent-color-2: #4cbb17;
+    --accent-color: #0076be;
     --background-color: #fff;
     --dim-text-color: #adacab99;
     --gutter-big: inherit;

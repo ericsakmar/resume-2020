@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Home" description={summary} />
       <Header name={name} />
       <Contact email={email} phone={phone} url={url} profiles={profiles} />
       <Summary summary={summary} skills={skills} />
