@@ -1,21 +1,12 @@
 /* dark */
-/* :root {
-  --gutter-big: 8em;
-  --accent-color: #00cccc;
+html {
   --accent-color-2: #cc00cc;
+  --accent-color: #00cccc;
   --background-color: #1e1b18;
+  --dim-text-color: #adacab99;
+  --gutter-big: 8rem;
+  --gutter-med: 4rem;
   --text-color: #e8e4e8;
-  --dim-text-color: #adacab99;
-} */
-
-/* light */
-:root {
-  --gutter-big: 8em;
-  --accent-color: #0066cc;
-  --accent-color-2: #800080;
-  --background-color: #fff;
-  --text-color: #000;
-  --dim-text-color: #adacab99;
 }
 
 body {
@@ -24,9 +15,9 @@ body {
 }
 
 main {
-  max-width: 42em;
+  max-width: 42rem;
   margin: var(--gutter-big) auto;
-  padding: 0 1em;
+  padding: 0 1rem;
 }
 
 section {
@@ -49,11 +40,11 @@ h4 {
 }
 
 h1 {
-  border-bottom: 0.2em solid var(--accent-color);
+  border-bottom: 0.2rem solid var(--accent-color);
 }
 
 h2 {
-  border-bottom: 0.1em solid var(--accent-color);
+  border-bottom: 0.1rem solid var(--accent-color);
 }
 
 .no-break {
@@ -74,9 +65,14 @@ h2 {
 }
 
 .icon-list-icon {
-  margin-right: 0.333em;
+  margin-right: 0.333rem;
   color: var(--accent-color-2);
-  width: 1em;
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon-list-item--long .icon-list-icon {
+  margin-top: 0.25rem;
 }
 
 .contact {
@@ -85,21 +81,21 @@ h2 {
 }
 
 .contact-item {
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 
 .summary p {
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .place {
-  margin-bottom: 4em;
+  margin-bottom: var(--gutter-med);
 }
 
 .positions td {
-  padding: 0.1em 0;
-  border-bottom: 0.1em dotted var(--dim-text-color);
+  padding: 0.1rem 0;
+  border-bottom: 0.1rem dotted var(--dim-text-color);
 }
 
 .positions-when {
@@ -112,5 +108,26 @@ h2 {
 }
 
 .skills li {
-  margin-right: 2em;
+  margin-right: 2rem;
+}
+
+@media print {
+  /* light */
+  html {
+    --accent-color-2: #800080;
+    --accent-color: #0066cc;
+    --background-color: #fff;
+    --dim-text-color: #adacab99;
+    --gutter-big: inherit;
+    --gutter-med: inherit;
+    --text-color: #000;
+
+    font-size: 14px;
+  }
+
+  main {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
