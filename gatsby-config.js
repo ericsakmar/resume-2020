@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Eric Sakmar`,
     description: `Professional Resume for Eric Sakmar`,
+    author: `Eric Sakmar`,
   },
   plugins: [
     {
