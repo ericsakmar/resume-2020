@@ -3,7 +3,7 @@ html {
   --accent-color-2: #98c379;
   --accent-color: #61afef;
   --background-color: #282c34;
-  --dim-text-color: #abb2bf;
+  --dim-text-color: #777c85;
   --gutter-big: 8rem;
   --gutter-med: 4rem;
   --text-color: #e8e4e8;
@@ -34,6 +34,7 @@ section {
 
 a {
   text-decoration: underline;
+  text-decoration-color: var(--dim-text-color);
   color: var(--text-color);
   text-shadow: none;
   border-bottom: none;
@@ -44,7 +45,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: inherit;
+  color: #fff;
 }
 
 h1 {
@@ -85,8 +86,8 @@ h2 {
 }
 
 .contact {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
 }
 
 .contact-item {
@@ -101,18 +102,23 @@ h2 {
   margin-bottom: var(--gutter-med);
 }
 
-.positions td {
-  padding: 0.1rem 0;
-  border-bottom: 0.1rem dotted var(--dim-text-color);
+.position {
+  display: flex;
+  flex-direction: row;
 }
 
-.positions-when {
-  text-align: right;
+.position-leaders {
+  flex-grow: 1;
+  border-bottom: 1px dashed var(--dim-text-color);
+  position: relative;
+  bottom: 0.35rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
 }
 
 .skills {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
 }
 
 .skills li {

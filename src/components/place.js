@@ -23,20 +23,17 @@ const Place = ({ name, location, positions, summary, highlights }) => {
 
 const Positions = ({ positions }) => {
   const rows = positions.map(p => (
-    <tr key={p.title}>
-      <td>{p.title}</td>
-      <td className="positions-when">
+    <div className="position" key={p.title}>
+      <div>{p.title}</div>
+      <div className="position-leaders"></div>
+      <div className="positions-when">
         <span className="no-break">{formatDate(p.startDate)}</span> to{" "}
         <span className="no-break">{formatDate(p.endDate)}</span>
-      </td>
-    </tr>
+      </div>
+    </div>
   ))
 
-  return (
-    <table className="positions">
-      <tbody>{rows}</tbody>
-    </table>
-  )
+  return <div className="positions">{rows}</div>
 }
 
 const Highlights = ({ highlights }) => {
