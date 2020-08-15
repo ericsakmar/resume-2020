@@ -28,7 +28,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Home" description={summary} />
 
-      <section className="full-screen">
+      <section>
         <Header name={name} />
         <Contact
           email={email}

@@ -3,7 +3,7 @@ html {
   --accent-color-2: #98c379;
   --accent-color: #61afef;
   --background-color: #282c34;
-  --dim-text-color: #777c85;
+  --dim-text-color: #99a0ab;
   --gutter-big: 8rem;
   --gutter-med: 4rem;
   --text-color: #e8e4e8;
@@ -22,14 +22,6 @@ main {
 
 section {
   margin-top: var(--gutter-big);
-}
-
-.full-screen {
-  min-height: 85vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 0;
 }
 
 a {
@@ -57,8 +49,14 @@ h2 {
   border-bottom: 0.1rem solid var(--accent-color);
 }
 
-h4 {
+h3 {
   color: #e5c07b;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0.25rem;
+  color: var(--dim-text-color);
 }
 
 .no-break {
@@ -106,6 +104,10 @@ h4 {
   margin-bottom: var(--gutter-med);
 }
 
+.positions {
+  margin-bottom: 2rem;
+}
+
 .position {
   display: flex;
   flex-direction: row;
@@ -127,6 +129,19 @@ h4 {
 
 .skills li {
   margin-right: 2rem;
+}
+
+.highlights {
+  list-style: none;
+}
+
+.highlight::before {
+  content: "\2022";
+  color: var(--accent-color-2);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 @media (min-width: 35rem) {
