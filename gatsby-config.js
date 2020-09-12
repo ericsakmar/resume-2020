@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Eric Sakmar`,
-    description: `Professional Resume for Eric Sakmar`,
+    description: `Professional Resume of Eric Sakmar`,
     author: `Eric Sakmar`,
   },
   plugins: [
@@ -24,11 +24,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Professional Resume for Eric Sakmar`,
+        name: `Professional Resume of Eric Sakmar`,
         short_name: `Eric`,
         start_url: `/`,
-        background_color: `#171412`,
-        theme_color: `#171412`,
+        background_color: `#282c34`,
+        theme_color: `#282c34`,
         display: `minimal-ui`,
         icon: `src/images/resume-icon.png`, // This path is relative to the root of the site.
       },
