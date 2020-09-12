@@ -77,6 +77,7 @@ h4 {
 }
 
 .icon-list-icon {
+  flex-shrink: 0;
   margin-right: 0.333rem;
   color: var(--accent-color-2);
   width: 1rem;
@@ -89,7 +90,7 @@ h4 {
 
 .contact {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(auto-fit, 15rem);
 }
 
 .contact-item {
@@ -124,7 +125,7 @@ h4 {
 
 .skills {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(auto-fit, 8rem);
 }
 
 .skills li {
