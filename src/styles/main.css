@@ -7,6 +7,7 @@ html {
   --gutter-big: 8rem;
   --gutter-med: 4rem;
   --text-color: #e8e4e8;
+  --bright-text-color: #fff;
 }
 
 body {
@@ -37,7 +38,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: #fff;
+  color: var(--bright-text-color);
 }
 
 h1 {
@@ -153,13 +154,12 @@ h4 {
 @media print {
   /* light */
   html {
-    --accent-color-2: #4cbb17;
-    --accent-color: #0076be;
     --background-color: #fff;
     --dim-text-color: #adacab99;
     --gutter-big: inherit;
     --gutter-med: inherit;
     --text-color: #000;
+    --bright-text-color: #000;
 
     font-size: 14px;
   }
