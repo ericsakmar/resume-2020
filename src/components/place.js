@@ -1,9 +1,10 @@
 import React from "react"
 import { format, isValid } from "date-fns"
-import { Circle } from "react-feather"
 
-const formatDate = date =>
-  isValid(new Date(date)) ? format(new Date(date), "MMM yyyy") : date
+const formatDate = date => {
+  const parsed = new Date(`${date}T00:00:00`)
+  return isValid(parsed) ? format(parsed, "MMM yyyy") : date
+}
 
 const Place = ({ name, location, positions, summary, highlights }) => {
   return (
