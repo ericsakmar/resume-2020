@@ -26,7 +26,7 @@ const Positions = ({ positions }) => {
     <div className="position" key={p.title}>
       <div>{p.title}</div>
       <div className="position-leaders"></div>
-      <div className="positions-when">
+      <div className="position-when">
         <span className="no-break">{formatDate(p.startDate)}</span> to{" "}
         <span className="no-break">{formatDate(p.endDate)}</span>
       </div>

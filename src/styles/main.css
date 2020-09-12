@@ -110,17 +110,23 @@ h4 {
 }
 
 .position {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
+  margin-bottom: 1rem;
 }
 
 .position-leaders {
+  display: none;
   flex-grow: 1;
   border-bottom: 1px dashed var(--dim-text-color);
   position: relative;
   bottom: 0.35rem;
   margin-left: 0.2rem;
   margin-right: 0.2rem;
+}
+
+.position-when {
+  color: var(--dim-text-color);
 }
 
 .skills {
@@ -143,6 +149,21 @@ h4 {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+@media (min-width: 30rem) {
+  .position {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  .position-leaders {
+    display: block;
+  }
+
+  .position-when {
+    color: var(--text-color);
+  }
 }
 
 @media (min-width: 35rem) {
