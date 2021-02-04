@@ -20,7 +20,9 @@ const IndexPage = ({ data }) => {
     url,
     profiles,
     summary,
-    skills,
+    currentSkills,
+    currentInterests,
+    previousSkills,
     location,
   } = basics
 
@@ -37,7 +39,12 @@ const IndexPage = ({ data }) => {
           profiles={profiles}
           location={location}
         />
-        <Summary summary={summary} skills={skills} />
+        <Summary
+          summary={summary}
+          currentSkills={currentSkills}
+          currentInterests={currentInterests}
+          previousSkills={previousSkills}
+        />
       </section>
 
       <Experience experience={work} />
@@ -59,6 +66,7 @@ export const query = graphql`
             url
             profiles {
               url
+              username
               network
             }
             location {
@@ -66,7 +74,9 @@ export const query = graphql`
               region
             }
             summary
-            skills
+            currentSkills
+            currentInterests
+            previousSkills
           }
           work {
             highlights

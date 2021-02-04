@@ -14,6 +14,7 @@ const StuffPage = ({ data }) => {
 
       <div class="video-wrapper">
         <iframe
+          title="The Real Sea - Waitin' For A Superman on Youtube"
           class="video-iframe"
           src="https://www.youtube.com/embed/zSPflsSFAqE"
           frameborder="0"
@@ -23,6 +24,7 @@ const StuffPage = ({ data }) => {
       </div>
 
       <iframe
+        title="The Real Sea - Waitin' For A Superman on Bandcamp"
         style={{ border: 0, width: "100%", height: "120px" }}
         src="https://bandcamp.com/EmbeddedPlayer/track=3111595504/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
         seamless

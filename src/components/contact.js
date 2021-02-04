@@ -28,7 +28,7 @@ export default ({ email, phone, url, profiles, location }) => {
   const links = profiles.map(p => (
     <li key={p.network} className="icon-list-item contact-item">
       {getSocialIcon(p.network)}
-      <a href={p.url}>{formatUrl(p.url)}</a>
+      <a href={p.url}>{p.username}</a>
     </li>
   ))
 

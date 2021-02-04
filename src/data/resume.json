@@ -17,21 +17,48 @@
         "network": "GitHub",
         "username": "ericsakmar",
         "url": "https://github.com/ericsakmar"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "eric-sakmar",
+        "url": "https://www.linkedin.com/in/eric-sakmar"
       }
     ],
-    "skills": [
+    "currentSkills": [
       "React",
       "Redux",
       "JavaScript",
       "TypeScript",
       "HTML",
       "CSS",
+      "C#",
+      "SQL",
       "Vim",
       "RxJS",
-      "C#",
       "Node.js",
       "Git",
+      "React Native",
       "Xamarin"
+    ],
+    "currentInterests": [
+      "Redwood",
+      "Blitz",
+      "JAM Stack",
+      "GraphQL",
+      "XState",
+      "BLE",
+      "Functional Programming"
+    ],
+    "previousSkills": [
+      "Java",
+      "Objective C",
+      "Ruby on Rails",
+      "Scala",
+      "D3",
+      "Angular",
+      "Vue",
+      "Jest",
+      "Mongo"
     ]
   },
 
@@ -50,6 +77,7 @@
       "url": "https://truefit.io",
       "summary": "Hired as a senior software engineer and quickly became a trusted and productive team member through creating quality code, contributing to architecture decisions, and reviewing code.",
       "highlights": [
+        "Full stack development of a mobile app and admin portal for collecting data from medical wearables.",
         "Full stack development of a multi-platform application for creating and viewing educational content. Converted an existing application from proprietary technologies to a stack based on open source libraries and standards compliant technology."
       ]
     },
