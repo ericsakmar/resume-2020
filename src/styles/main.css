@@ -8,6 +8,8 @@ html {
   --gutter-med: 4rem;
   --text-color: #e8e4e8;
   --bright-text-color: #fff;
+
+  font-size: 24px;
 }
 
 body {

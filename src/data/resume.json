@@ -6,7 +6,7 @@
     "email": "eric.sakmar@gmail.com",
     "phone": "(814) 934-0702",
     "url": "https://ericsakmar.com",
-    "summary": "Software engineer with a long career across the full stack. Excels at adapting to new technologies and techniques. Strives to create software that is readable and maintainable using a practical knowledge of software design patterns and principles.",
+    "summary": "Senior software engineer with a long career across the full stack. Excels at adapting to new technologies and techniques. Strives to create software that is readable and maintainable using a practical knowledge of software design patterns and principles.",
     "location": {
       "city": "Pittsburgh",
       "countryCode": "US",
@@ -32,13 +32,11 @@
       "HTML",
       "CSS",
       "C#",
-      "SQL",
       "Vim",
       "RxJS",
       "Node.js",
       "Git",
-      "React Native",
-      "Xamarin"
+      "React Native"
     ],
     "currentInterests": [
       "Redwood",
@@ -53,11 +51,12 @@
       "Java",
       "Objective C",
       "Ruby on Rails",
-      "Scala",
+      "SQL",
       "D3",
       "Angular",
       "Vue",
-      "Jest"
+      "Scala",
+      "Xamarin"
     ]
   },
 
