@@ -35,8 +35,8 @@ export default ({
       <h4>Currently working with:</h4>
       <ul className="icon-list skills">{currentSkillItems}</ul>
 
-      <h4>Currently interested in:</h4>
-      <ul className="icon-list skills">{currentInterestItems}</ul>
+      {/* <h4>Currently interested in:</h4>
+      <ul className="icon-list skills">{currentInterestItems}</ul> */}
 
       <h4>Previously worked with:</h4>
       <ul className="icon-list skills">{previousSkillItems}</ul>
