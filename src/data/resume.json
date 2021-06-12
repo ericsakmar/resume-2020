@@ -67,9 +67,14 @@
       "description": "We’re a team of strategists, product owners, designers, architects, engineers, and testers collaborating to create new software products that deliver both business and user value.",
       "positions": [
         {
+          "title": "Principal Software Engineer",
+          "startDate": "2019-05-01",
+          "endDate": "Present"
+        },
+        {
           "title": "Senior Software Engineer",
           "startDate": "2019-01-01",
-          "endDate": "Present"
+          "endDate": "2019-05-01"
         }
       ],
       "url": "https://truefit.io",
