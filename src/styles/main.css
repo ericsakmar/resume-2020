@@ -174,10 +174,20 @@ h4 {
 }
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: var(--gutter-med);
-  grid-gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project {
+  flex-basis: 200px;
+  flex-grow: 1;
+}
+
+.bandcamp-player {
+  border: 0;
+  width: 100%;
+  margin-bottom: 0;
 }
 
 @media (min-width: 30rem) {
@@ -198,6 +208,18 @@ h4 {
 @media (min-width: 35rem) {
   h1 {
     font-size: 5rem;
+  }
+
+  .latest-project {
+    display: flex;
+  }
+
+  .big-album-cover {
+    flex-grow: 1;
+  }
+
+  .bandcamp-player {
+    width: 350px;
   }
 }
 
