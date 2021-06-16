@@ -38,15 +38,6 @@
       "Git",
       "React Native"
     ],
-    "currentInterests": [
-      "Redwood",
-      "Blitz",
-      "Next.js",
-      "JAM Stack",
-      "GraphQL",
-      "XState",
-      "BLE"
-    ],
     "previousSkills": [
       "Java",
       "Objective C",
@@ -56,6 +47,7 @@
       "Angular",
       "Vue",
       "Scala",
+      "Electron",
       "Xamarin"
     ]
   },
@@ -80,8 +72,9 @@
       "url": "https://truefit.io",
       "summary": "Hired as a senior software engineer and quickly became a trusted and productive team member through creating quality code, contributing to architecture decisions, and reviewing code. Current focus is on exploring new technologies and applying them to prototype projects.",
       "highlights": [
-        "Full stack development of a mobile app and admin portal for collecting data from medical wearables.",
-        "Full stack development of a multi-platform application for creating and viewing educational content. Converted an existing application from proprietary technologies to a stack based on open source libraries and standards compliant technology."
+        "Prototype development of a mobile app and web-based admin portal for collecting data from medical wearables.",
+        "Full stack development of a multi-platform application for creating and viewing educational content. Converted an existing application from proprietary technologies to a stack based on open source libraries and standards compliant technology.",
+        "Full stack development of a suite of web-based applications for maintaining healthcare data."
       ]
     },
 

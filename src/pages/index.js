@@ -21,7 +21,6 @@ const IndexPage = ({ data }) => {
     profiles,
     summary,
     currentSkills,
-    currentInterests,
     previousSkills,
     location,
   } = basics
@@ -42,7 +41,6 @@ const IndexPage = ({ data }) => {
         <Summary
           summary={summary}
           currentSkills={currentSkills}
-          currentInterests={currentInterests}
           previousSkills={previousSkills}
         />
       </section>
@@ -75,7 +73,6 @@ export const query = graphql`
             }
             summary
             currentSkills
-            currentInterests
             previousSkills
           }
           work {
