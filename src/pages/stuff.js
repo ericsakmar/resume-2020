@@ -19,6 +19,7 @@ const StuffPage = ({ data }) => {
         />
 
         <iframe
+          title="Arrive by Spaces"
           className="bandcamp-player"
           src="https://bandcamp.com/EmbeddedPlayer/album=2157362934/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/"
           seamless
