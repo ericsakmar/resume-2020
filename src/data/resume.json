@@ -129,15 +129,5 @@
       "endDate": "2006-05-01",
       "summary": "Presidential Scholar, Magna Cum Laude"
     }
-  ],
-
-  "awards": [
-    {
-      "title": "Mobile Web Specialist",
-      "startDate": "2018-03-28",
-      "endDate": "2021-03-23",
-      "awarder": "Google",
-      "summary": "The Mobile Web Developer Certification is a performance-based exam that challenges mobile web developers to write code in response to real-world tasks."
-    }
   ]
 }

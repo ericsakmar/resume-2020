@@ -7,12 +7,11 @@ import SEO from "../components/seo"
 import Contact from "../components/contact"
 import Experience from "../components/experience"
 import Education from "../components/education"
-import Awards from "../components/awards"
 import Summary from "../components/summary"
 
 const IndexPage = ({ data }) => {
   const resume = data.allDataJson.edges[0].node
-  const { basics, work, education, awards } = resume
+  const { basics, work, education } = resume
   const {
     name,
     email,
@@ -46,7 +45,6 @@ const IndexPage = ({ data }) => {
       </section>
 
       <Experience experience={work} />
-      <Awards awards={awards} />
       <Education education={education} />
     </Layout>
   )
@@ -94,13 +92,6 @@ export const query = graphql`
             startDate
             studyType
             summary
-          }
-          awards {
-            awarder
-            startDate
-            endDate
-            summary
-            title
           }
         }
       }
