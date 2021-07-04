@@ -22,9 +22,11 @@ export default ({ summary, currentSkills, previousSkills }) => {
 
       <h4>Currently working with:</h4>
       <ul className="icon-list skills">{currentSkillItems}</ul>
+      <p className="skills-print">{currentSkills.join(", ")}</p>
 
       <h4>Previous experience with:</h4>
       <ul className="icon-list skills">{previousSkillItems}</ul>
+      <p className="skills-print">{previousSkills.join(", ")}</p>
     </div>
   )
 }
