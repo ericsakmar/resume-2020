@@ -70,10 +70,11 @@
         }
       ],
       "url": "https://truefit.io",
-      "summary": "Hired as a senior software engineer and quickly became a trusted and productive team member through creating quality code, contributing to architecture decisions, and reviewing code. Current focus is on exploring new technologies and applying them to prototype projects.",
+      "summary": "Hired as a senior software engineer and quickly promoted to principal. Currently working as a generalist, providing engineering support to other teams within the company. This involves quickly adapting to new environments to help teams start or finish projects, integrate with third-party services, and improve code quality through code reviews.",
       "highlights": [
-        "Full stack development of a multi-platform application for creating and viewing educational content. Converted an existing application from proprietary technologies to a stack based on open source libraries and standards compliant technology.",
-        "Full stack development of a suite of web-based applications for maintaining healthcare data."
+        "Full stack development on an application that provides a user-friendly interface to a third-party proprietary system for the playback of immersive video. Worked with the client to design and develop an API for integrating with their system.",
+        "Full stack development on applications for a unique and high-profile travel agency. Integrated with third-party services that manage payments, a loyalty program, and automated emailing. Created custom code for a recommendation engine and a module to generate PDFs.",
+        "Full stack development of a multi-platform application for creating and viewing educational content. Converted an existing application from proprietary technologies to a stack based on open source libraries and standards compliant technology."
       ]
     },
 
