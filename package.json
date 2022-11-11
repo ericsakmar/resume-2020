@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "date-fns": "^2.8.1",
+    "date-fns": "^2.29.3",
     "gatsby": "^4.24.8",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-manifest": "^4.24.0",
@@ -16,13 +16,13 @@
     "gatsby-source-filesystem": "^4.24.0",
     "gatsby-transformer-json": "^4.24.0",
     "gatsby-transformer-sharp": "^4.24.0",
-    "prop-types": "^15.7.2",
+    "prop-types": "^15.8.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-feather": "^2.0.3",
+    "react-feather": "^2.0.10",
     "react-helmet": "^5.2.1",
-    "react-typography": "^0.16.19",
-    "typography": "^0.16.19",
+    "react-typography": "^0.16.20",
+    "typography": "^0.16.21",
     "typography-theme-doelger": "^0.16.19"
   },
   "devDependencies": {
